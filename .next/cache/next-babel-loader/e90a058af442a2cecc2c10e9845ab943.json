@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Layout from '../components/Layout';","map":{"version":3,"sources":["C:/Users/Fayyaadh/Desktop/Hyperiondev/Level 3/Task 10/first-next-app/pages/projects.js"],"names":["Layout"],"mappings":"AAAA,OAAOA,MAAP,MAAmB,sBAAnB","sourcesContent":["import Layout from '../components/Layout';"]},"metadata":{},"sourceType":"module"}
