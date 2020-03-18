@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -104,7 +104,7 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 10\\first-next-app\\components\\Footer.js";
+var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 12\\first-next-app\\components\\Footer.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const footerStyle = {
@@ -151,7 +151,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_Menu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Menu */ "./components/Menu.js");
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
-var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 10\\first-next-app\\components\\Layout.js";
+var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 12\\first-next-app\\components\\Layout.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -212,7 +212,7 @@ const Layout = props => __jsx("div", {
 })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
   id: "4184271659",
   __self: undefined
-}, "h2{color:red;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDEwXFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTJCdUIsQUFHbUIsVUFDWiIsImZpbGUiOiJDOlxcVXNlcnNcXEZheXlhYWRoXFxEZXNrdG9wXFxIeXBlcmlvbmRldlxcTGV2ZWwgM1xcVGFzayAxMFxcZmlyc3QtbmV4dC1hcHBcXGNvbXBvbmVudHNcXExheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcclxuaW1wb3J0IE1lbnUgZnJvbSBcIi4uL2NvbXBvbmVudHMvTWVudVwiO1xyXG5pbXBvcnQgRm9vdGVyIGZyb20gXCIuLi9jb21wb25lbnRzL0Zvb3RlclwiO1xyXG5cclxuY29uc3QgbGF5b3V0U3R5bGUgPSB7XHJcbiAgdGV4dEFsaWduOiBcImNlbnRlclwiLFxyXG4gIG1hcmdpbjogMjAsXHJcbiAgcGFkZGluZzogMjAsXHJcbiAgYm9yZGVyOiBcIjFweCBzb2xpZCAjREREXCJcclxufTtcclxuXHJcbi8vQ0ROIGxpbmsgaW1wb3J0YW50IGZvciByZWFjdC1ib290c3RyYXAgdG8gd29ya1xyXG5jb25zdCBMYXlvdXQgPSBwcm9wcyA9PiAoXHJcbiAgPGRpdj5cclxuICAgIDxIZWFkPlxyXG4gICAgICA8bGlua1xyXG4gICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxyXG4gICAgICAgIGhyZWY9XCJodHRwczovL21heGNkbi5ib290c3RyYXBjZG4uY29tL2Jvb3RzdHJhcC80LjMuMS9jc3MvYm9vdHN0cmFwLm1pbi5jc3NcIlxyXG4gICAgICAgIGludGVncml0eT1cInNoYTM4NC1nZ095UjBpWENiTVF2M1hpcG1hMzRNRCtkSC8xZlE3ODQvajZjWS9pSlRRVU9oY1dyN3g5SnZvUnhUMk1adzFUXCJcclxuICAgICAgICBjcm9zc29yaWdpbj1cImFub255bW91c1wiXHJcbiAgICAgIC8+XHJcbiAgICA8L0hlYWQ+XHJcbiAgICA8ZGl2IHN0eWxlPXtsYXlvdXRTdHlsZX0+XHJcbiAgICAgIDxNZW51PjwvTWVudT5cclxuICAgICAge3Byb3BzLmNoaWxkcmVufVxyXG4gICAgICA8Rm9vdGVyPjwvRm9vdGVyPlxyXG4gICAgPC9kaXY+XHJcbiAgICA8c3R5bGUgZ2xvYmFsIGpzeD57YFxyXG4gICAgICBoMiB7XHJcbiAgICAgICAgY29sb3I6IHJlZDtcclxuICAgICAgfVxyXG4gICAgYH08L3N0eWxlPlxyXG4gIDwvZGl2PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0O1xyXG4iXX0= */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 10\\\\first-next-app\\\\components\\\\Layout.js */"));
+}, "h2{color:red;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDEyXFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTJCdUIsQUFHbUIsVUFDWiIsImZpbGUiOiJDOlxcVXNlcnNcXEZheXlhYWRoXFxEZXNrdG9wXFxIeXBlcmlvbmRldlxcTGV2ZWwgM1xcVGFzayAxMlxcZmlyc3QtbmV4dC1hcHBcXGNvbXBvbmVudHNcXExheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcclxuaW1wb3J0IE1lbnUgZnJvbSBcIi4uL2NvbXBvbmVudHMvTWVudVwiO1xyXG5pbXBvcnQgRm9vdGVyIGZyb20gXCIuLi9jb21wb25lbnRzL0Zvb3RlclwiO1xyXG5cclxuY29uc3QgbGF5b3V0U3R5bGUgPSB7XHJcbiAgdGV4dEFsaWduOiBcImNlbnRlclwiLFxyXG4gIG1hcmdpbjogMjAsXHJcbiAgcGFkZGluZzogMjAsXHJcbiAgYm9yZGVyOiBcIjFweCBzb2xpZCAjREREXCJcclxufTtcclxuXHJcbi8vQ0ROIGxpbmsgaW1wb3J0YW50IGZvciByZWFjdC1ib290c3RyYXAgdG8gd29ya1xyXG5jb25zdCBMYXlvdXQgPSBwcm9wcyA9PiAoXHJcbiAgPGRpdj5cclxuICAgIDxIZWFkPlxyXG4gICAgICA8bGlua1xyXG4gICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxyXG4gICAgICAgIGhyZWY9XCJodHRwczovL21heGNkbi5ib290c3RyYXBjZG4uY29tL2Jvb3RzdHJhcC80LjMuMS9jc3MvYm9vdHN0cmFwLm1pbi5jc3NcIlxyXG4gICAgICAgIGludGVncml0eT1cInNoYTM4NC1nZ095UjBpWENiTVF2M1hpcG1hMzRNRCtkSC8xZlE3ODQvajZjWS9pSlRRVU9oY1dyN3g5SnZvUnhUMk1adzFUXCJcclxuICAgICAgICBjcm9zc29yaWdpbj1cImFub255bW91c1wiXHJcbiAgICAgIC8+XHJcbiAgICA8L0hlYWQ+XHJcbiAgICA8ZGl2IHN0eWxlPXtsYXlvdXRTdHlsZX0+XHJcbiAgICAgIDxNZW51PjwvTWVudT5cclxuICAgICAge3Byb3BzLmNoaWxkcmVufVxyXG4gICAgICA8Rm9vdGVyPjwvRm9vdGVyPlxyXG4gICAgPC9kaXY+XHJcbiAgICA8c3R5bGUgZ2xvYmFsIGpzeD57YFxyXG4gICAgICBoMiB7XHJcbiAgICAgICAgY29sb3I6IHJlZDtcclxuICAgICAgfVxyXG4gICAgYH08L3N0eWxlPlxyXG4gIDwvZGl2PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0O1xyXG4iXX0= */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 12\\\\first-next-app\\\\components\\\\Layout.js */"));
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
@@ -233,7 +233,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 10\\first-next-app\\components\\Menu.js";
+var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 12\\first-next-app\\components\\Menu.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -312,7 +312,7 @@ const Menu = () => __jsx("div", {
 }, "Contact")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
   id: "2392713929",
   __self: undefined
-}, ".links.jsx-2392713929{padding:10px;border-bottom:1px solid lightgray;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDEwXFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTWVudS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFvQmdCLEFBR3NCLGFBQ3FCLGtDQUNwQyIsImZpbGUiOiJDOlxcVXNlcnNcXEZheXlhYWRoXFxEZXNrdG9wXFxIeXBlcmlvbmRldlxcTGV2ZWwgM1xcVGFzayAxMFxcZmlyc3QtbmV4dC1hcHBcXGNvbXBvbmVudHNcXE1lbnUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tIFwibmV4dC9saW5rXCI7XHJcblxyXG5jb25zdCBsaW5rU3R5bGUgPSB7XHJcbiAgbWFyZ2luUmlnaHQ6IDE1XHJcbn07XHJcblxyXG5jb25zdCBNZW51ID0gKCkgPT4gKFxyXG4gIDxkaXYgY2xhc3NOYW1lPVwibGlua3NcIj5cclxuICAgIDxMaW5rIGhyZWY9XCIvXCI+XHJcbiAgICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9PkhvbWU8L2E+XHJcbiAgICA8L0xpbms+XHJcbiAgICA8TGluayBocmVmPVwiL2Fib3V0XCI+XHJcbiAgICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9PkFib3V0PC9hPlxyXG4gICAgPC9MaW5rPlxyXG4gICAgPExpbmsgaHJlZj1cIi9wcm9qZWN0c1wiPlxyXG4gICAgICA8YSBzdHlsZT17bGlua1N0eWxlfT5Qcm9qZWN0czwvYT5cclxuICAgIDwvTGluaz5cclxuICAgIDxMaW5rIGhyZWY9XCIvY29udGFjdFwiPlxyXG4gICAgICA8YSBzdHlsZT17bGlua1N0eWxlfT5Db250YWN0PC9hPlxyXG4gICAgPC9MaW5rPlxyXG4gICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAubGlua3Mge1xyXG4gICAgICAgIHBhZGRpbmc6IDEwcHg7XHJcbiAgICAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIGxpZ2h0Z3JheTtcclxuICAgICAgfVxyXG4gICAgYH08L3N0eWxlPlxyXG4gIDwvZGl2PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgTWVudTtcclxuIl19 */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 10\\\\first-next-app\\\\components\\\\Menu.js */"));
+}, ".links.jsx-2392713929{padding:10px;border-bottom:1px solid lightgray;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDEyXFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTWVudS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFvQmdCLEFBR3NCLGFBQ3FCLGtDQUNwQyIsImZpbGUiOiJDOlxcVXNlcnNcXEZheXlhYWRoXFxEZXNrdG9wXFxIeXBlcmlvbmRldlxcTGV2ZWwgM1xcVGFzayAxMlxcZmlyc3QtbmV4dC1hcHBcXGNvbXBvbmVudHNcXE1lbnUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tIFwibmV4dC9saW5rXCI7XHJcblxyXG5jb25zdCBsaW5rU3R5bGUgPSB7XHJcbiAgbWFyZ2luUmlnaHQ6IDE1XHJcbn07XHJcblxyXG5jb25zdCBNZW51ID0gKCkgPT4gKFxyXG4gIDxkaXYgY2xhc3NOYW1lPVwibGlua3NcIj5cclxuICAgIDxMaW5rIGhyZWY9XCIvXCI+XHJcbiAgICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9PkhvbWU8L2E+XHJcbiAgICA8L0xpbms+XHJcbiAgICA8TGluayBocmVmPVwiL2Fib3V0XCI+XHJcbiAgICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9PkFib3V0PC9hPlxyXG4gICAgPC9MaW5rPlxyXG4gICAgPExpbmsgaHJlZj1cIi9wcm9qZWN0c1wiPlxyXG4gICAgICA8YSBzdHlsZT17bGlua1N0eWxlfT5Qcm9qZWN0czwvYT5cclxuICAgIDwvTGluaz5cclxuICAgIDxMaW5rIGhyZWY9XCIvY29udGFjdFwiPlxyXG4gICAgICA8YSBzdHlsZT17bGlua1N0eWxlfT5Db250YWN0PC9hPlxyXG4gICAgPC9MaW5rPlxyXG4gICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAubGlua3Mge1xyXG4gICAgICAgIHBhZGRpbmc6IDEwcHg7XHJcbiAgICAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIGxpZ2h0Z3JheTtcclxuICAgICAgfVxyXG4gICAgYH08L3N0eWxlPlxyXG4gIDwvZGl2PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgTWVudTtcclxuIl19 */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 12\\\\first-next-app\\\\components\\\\Menu.js */"));
 
 /* harmony default export */ __webpack_exports__["default"] = (Menu);
 
@@ -2009,7 +2009,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_bootstrap_Table__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Table */ "react-bootstrap/Table");
 /* harmony import */ var react_bootstrap_Table__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Table__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 10\\first-next-app\\pages\\about.js";
+var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 12\\first-next-app\\pages\\about.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2404,14 +2404,14 @@ const About = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["defau
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Fayyaadh\Desktop\Hyperiondev\Level 3\Task 10\first-next-app\pages\about.js */"./pages/about.js");
+module.exports = __webpack_require__(/*! C:\Users\Fayyaadh\Desktop\Hyperiondev\Level 3\Task 12\first-next-app\pages\about.js */"./pages/about.js");
 
 
 /***/ }),
