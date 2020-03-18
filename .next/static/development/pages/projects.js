@@ -92,7 +92,7 @@ var Layout = function Layout(props) {
     rel: "stylesheet",
     href: "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
     integrity: "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
-    crossorigin: "anonymous",
+    crossOrigin: "anonymous",
     className: "jsx-4184271659",
     __source: {
       fileName: _jsxFileName,
@@ -122,7 +122,7 @@ var Layout = function Layout(props) {
   })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "4184271659",
     __self: this
-  }, "h2{color:red;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDEyXFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTJCdUIsQUFHbUIsVUFDWiIsImZpbGUiOiJDOlxcVXNlcnNcXEZheXlhYWRoXFxEZXNrdG9wXFxIeXBlcmlvbmRldlxcTGV2ZWwgM1xcVGFzayAxMlxcZmlyc3QtbmV4dC1hcHBcXGNvbXBvbmVudHNcXExheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcclxuaW1wb3J0IE1lbnUgZnJvbSBcIi4uL2NvbXBvbmVudHMvTWVudVwiO1xyXG5pbXBvcnQgRm9vdGVyIGZyb20gXCIuLi9jb21wb25lbnRzL0Zvb3RlclwiO1xyXG5cclxuY29uc3QgbGF5b3V0U3R5bGUgPSB7XHJcbiAgdGV4dEFsaWduOiBcImNlbnRlclwiLFxyXG4gIG1hcmdpbjogMjAsXHJcbiAgcGFkZGluZzogMjAsXHJcbiAgYm9yZGVyOiBcIjFweCBzb2xpZCAjREREXCJcclxufTtcclxuXHJcbi8vQ0ROIGxpbmsgaW1wb3J0YW50IGZvciByZWFjdC1ib290c3RyYXAgdG8gd29ya1xyXG5jb25zdCBMYXlvdXQgPSBwcm9wcyA9PiAoXHJcbiAgPGRpdj5cclxuICAgIDxIZWFkPlxyXG4gICAgICA8bGlua1xyXG4gICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxyXG4gICAgICAgIGhyZWY9XCJodHRwczovL21heGNkbi5ib290c3RyYXBjZG4uY29tL2Jvb3RzdHJhcC80LjMuMS9jc3MvYm9vdHN0cmFwLm1pbi5jc3NcIlxyXG4gICAgICAgIGludGVncml0eT1cInNoYTM4NC1nZ095UjBpWENiTVF2M1hpcG1hMzRNRCtkSC8xZlE3ODQvajZjWS9pSlRRVU9oY1dyN3g5SnZvUnhUMk1adzFUXCJcclxuICAgICAgICBjcm9zc29yaWdpbj1cImFub255bW91c1wiXHJcbiAgICAgIC8+XHJcbiAgICA8L0hlYWQ+XHJcbiAgICA8ZGl2IHN0eWxlPXtsYXlvdXRTdHlsZX0+XHJcbiAgICAgIDxNZW51PjwvTWVudT5cclxuICAgICAge3Byb3BzLmNoaWxkcmVufVxyXG4gICAgICA8Rm9vdGVyPjwvRm9vdGVyPlxyXG4gICAgPC9kaXY+XHJcbiAgICA8c3R5bGUgZ2xvYmFsIGpzeD57YFxyXG4gICAgICBoMiB7XHJcbiAgICAgICAgY29sb3I6IHJlZDtcclxuICAgICAgfVxyXG4gICAgYH08L3N0eWxlPlxyXG4gIDwvZGl2PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0O1xyXG4iXX0= */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 12\\\\first-next-app\\\\components\\\\Layout.js */"));
+  }, "h2{color:red;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDEyXFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTJCdUIsQUFHbUIsVUFDWiIsImZpbGUiOiJDOlxcVXNlcnNcXEZheXlhYWRoXFxEZXNrdG9wXFxIeXBlcmlvbmRldlxcTGV2ZWwgM1xcVGFzayAxMlxcZmlyc3QtbmV4dC1hcHBcXGNvbXBvbmVudHNcXExheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcclxuaW1wb3J0IE1lbnUgZnJvbSBcIi4uL2NvbXBvbmVudHMvTWVudVwiO1xyXG5pbXBvcnQgRm9vdGVyIGZyb20gXCIuLi9jb21wb25lbnRzL0Zvb3RlclwiO1xyXG5cclxuY29uc3QgbGF5b3V0U3R5bGUgPSB7XHJcbiAgdGV4dEFsaWduOiBcImNlbnRlclwiLFxyXG4gIG1hcmdpbjogMjAsXHJcbiAgcGFkZGluZzogMjAsXHJcbiAgYm9yZGVyOiBcIjFweCBzb2xpZCAjREREXCJcclxufTtcclxuXHJcbi8vQ0ROIGxpbmsgaW1wb3J0YW50IGZvciByZWFjdC1ib290c3RyYXAgdG8gd29ya1xyXG5jb25zdCBMYXlvdXQgPSBwcm9wcyA9PiAoXHJcbiAgPGRpdj5cclxuICAgIDxIZWFkPlxyXG4gICAgICA8bGlua1xyXG4gICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxyXG4gICAgICAgIGhyZWY9XCJodHRwczovL21heGNkbi5ib290c3RyYXBjZG4uY29tL2Jvb3RzdHJhcC80LjMuMS9jc3MvYm9vdHN0cmFwLm1pbi5jc3NcIlxyXG4gICAgICAgIGludGVncml0eT1cInNoYTM4NC1nZ095UjBpWENiTVF2M1hpcG1hMzRNRCtkSC8xZlE3ODQvajZjWS9pSlRRVU9oY1dyN3g5SnZvUnhUMk1adzFUXCJcclxuICAgICAgICBjcm9zc09yaWdpbj1cImFub255bW91c1wiXHJcbiAgICAgIC8+XHJcbiAgICA8L0hlYWQ+XHJcbiAgICA8ZGl2IHN0eWxlPXtsYXlvdXRTdHlsZX0+XHJcbiAgICAgIDxNZW51PjwvTWVudT5cclxuICAgICAge3Byb3BzLmNoaWxkcmVufVxyXG4gICAgICA8Rm9vdGVyPjwvRm9vdGVyPlxyXG4gICAgPC9kaXY+XHJcbiAgICA8c3R5bGUgZ2xvYmFsIGpzeD57YFxyXG4gICAgICBoMiB7XHJcbiAgICAgICAgY29sb3I6IHJlZDtcclxuICAgICAgfVxyXG4gICAgYH08L3N0eWxlPlxyXG4gIDwvZGl2PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0O1xyXG4iXX0= */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 12\\\\first-next-app\\\\components\\\\Layout.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -144,40 +144,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
 var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 12\\first-next-app\\components\\Menu.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
+
 var linkStyle = {
-  marginRight: 15
+  marginRight: 15,
+  color: 'white'
 };
 
 var Menu = function Menu() {
   return __jsx("div", {
-    className: "jsx-2392713929" + " " + "links",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("a", {
-    style: linkStyle,
-    className: "jsx-2392713929",
+    className: "jsx-2750671077" + " " + "links",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/about",
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Navbar"], {
+    bg: "primary",
+    variant: "dark",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -185,14 +181,14 @@ var Menu = function Menu() {
     __self: this
   }, __jsx("a", {
     style: linkStyle,
-    className: "jsx-2392713929",
+    className: "jsx-2750671077",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, "About")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/projects",
+  }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/about",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
@@ -200,14 +196,14 @@ var Menu = function Menu() {
     __self: this
   }, __jsx("a", {
     style: linkStyle,
-    className: "jsx-2392713929",
+    className: "jsx-2750671077",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }, "Projects")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/contact",
+  }, "About")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/projects",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
@@ -215,16 +211,31 @@ var Menu = function Menu() {
     __self: this
   }, __jsx("a", {
     style: linkStyle,
-    className: "jsx-2392713929",
+    className: "jsx-2750671077",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }, "Contact")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "2392713929",
+  }, "Projects")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/contact",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
     __self: this
-  }, ".links.jsx-2392713929{padding:10px;border-bottom:1px solid lightgray;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDEyXFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTWVudS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFvQmdCLEFBR3NCLGFBQ3FCLGtDQUNwQyIsImZpbGUiOiJDOlxcVXNlcnNcXEZheXlhYWRoXFxEZXNrdG9wXFxIeXBlcmlvbmRldlxcTGV2ZWwgM1xcVGFzayAxMlxcZmlyc3QtbmV4dC1hcHBcXGNvbXBvbmVudHNcXE1lbnUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tIFwibmV4dC9saW5rXCI7XHJcblxyXG5jb25zdCBsaW5rU3R5bGUgPSB7XHJcbiAgbWFyZ2luUmlnaHQ6IDE1XHJcbn07XHJcblxyXG5jb25zdCBNZW51ID0gKCkgPT4gKFxyXG4gIDxkaXYgY2xhc3NOYW1lPVwibGlua3NcIj5cclxuICAgIDxMaW5rIGhyZWY9XCIvXCI+XHJcbiAgICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9PkhvbWU8L2E+XHJcbiAgICA8L0xpbms+XHJcbiAgICA8TGluayBocmVmPVwiL2Fib3V0XCI+XHJcbiAgICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9PkFib3V0PC9hPlxyXG4gICAgPC9MaW5rPlxyXG4gICAgPExpbmsgaHJlZj1cIi9wcm9qZWN0c1wiPlxyXG4gICAgICA8YSBzdHlsZT17bGlua1N0eWxlfT5Qcm9qZWN0czwvYT5cclxuICAgIDwvTGluaz5cclxuICAgIDxMaW5rIGhyZWY9XCIvY29udGFjdFwiPlxyXG4gICAgICA8YSBzdHlsZT17bGlua1N0eWxlfT5Db250YWN0PC9hPlxyXG4gICAgPC9MaW5rPlxyXG4gICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAubGlua3Mge1xyXG4gICAgICAgIHBhZGRpbmc6IDEwcHg7XHJcbiAgICAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIGxpZ2h0Z3JheTtcclxuICAgICAgfVxyXG4gICAgYH08L3N0eWxlPlxyXG4gIDwvZGl2PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgTWVudTtcclxuIl19 */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 12\\\\first-next-app\\\\components\\\\Menu.js */"));
+  }, __jsx("a", {
+    style: linkStyle,
+    className: "jsx-2750671077",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, "Contact"))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "2750671077",
+    __self: this
+  }, ".links.jsx-2750671077{padding:10px;margin-bottom:10px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDEyXFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTWVudS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF3QmdCLEFBR3NCLGFBQ00sbUJBQ3JCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDEyXFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTWVudS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjtcclxuaW1wb3J0IHsgTmF2YmFyIH0gZnJvbSAncmVhY3QtYm9vdHN0cmFwJztcclxuXHJcbmNvbnN0IGxpbmtTdHlsZSA9IHtcclxuICBtYXJnaW5SaWdodDogMTUsXHJcbiAgY29sb3I6ICd3aGl0ZSdcclxufTtcclxuXHJcbmNvbnN0IE1lbnUgPSAoKSA9PiAoXHJcbiAgPGRpdiBjbGFzc05hbWU9XCJsaW5rc1wiPlxyXG4gICAgPE5hdmJhciBiZz1cInByaW1hcnlcIiB2YXJpYW50PVwiZGFya1wiPlxyXG4gICAgPExpbmsgaHJlZj1cIi9cIj5cclxuICAgICAgPGEgc3R5bGU9e2xpbmtTdHlsZX0+SG9tZTwvYT5cclxuICAgIDwvTGluaz5cclxuICAgIDxMaW5rIGhyZWY9XCIvYWJvdXRcIj5cclxuICAgICAgPGEgc3R5bGU9e2xpbmtTdHlsZX0+QWJvdXQ8L2E+XHJcbiAgICA8L0xpbms+XHJcbiAgICA8TGluayBocmVmPVwiL3Byb2plY3RzXCI+XHJcbiAgICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9PlByb2plY3RzPC9hPlxyXG4gICAgPC9MaW5rPlxyXG4gICAgPExpbmsgaHJlZj1cIi9jb250YWN0XCI+XHJcbiAgICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9PkNvbnRhY3Q8L2E+XHJcbiAgICA8L0xpbms+XHJcbiAgICA8L05hdmJhcj5cclxuICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgLmxpbmtzIHtcclxuICAgICAgICBwYWRkaW5nOiAxMHB4O1xyXG4gICAgICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbiAgICAgIH1cclxuICAgIGB9PC9zdHlsZT5cclxuICA8L2Rpdj5cclxuKTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IE1lbnU7XHJcbiJdfQ== */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 12\\\\first-next-app\\\\components\\\\Menu.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Menu);
@@ -20638,7 +20649,7 @@ var Project = function Project() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!***************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprojects&absolutePagePath=C%3A%5CUsers%5CFayyaadh%5CDesktop%5CHyperiondev%5CLevel%203%5CTask%2012%5Cfirst-next-app%5Cpages%5Cprojects.js ***!
   \***************************************************************************************************************************************************************************************/
@@ -20661,5 +20672,5 @@ module.exports = dll_82519ec661270f7f484f;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[5,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=projects.js.map
