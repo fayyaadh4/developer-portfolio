@@ -104,8 +104,11 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 12\\first-next-app\\components\\Footer.js";
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 16\\first-next-app\\components\\Footer.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 const footerStyle = {
   borderTop: "1px solid",
@@ -119,16 +122,22 @@ const Footer = () => __jsx("div", {
   style: footerStyle,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 13
+  },
+  __self: undefined
+}, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
   },
   __self: undefined
 }, __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 15
   },
   __self: undefined
-}, "This online portfolio was developed using Next.js"));
+}, "This online portfolio was developed by Fayyaadh Naidoo using Next.js")));
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
 
@@ -151,7 +160,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_Menu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Menu */ "./components/Menu.js");
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
-var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 12\\first-next-app\\components\\Layout.js";
+var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 16\\first-next-app\\components\\Layout.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -160,9 +169,9 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 const layoutStyle = {
   textAlign: "center",
-  margin: 20,
   padding: 20,
-  border: "1px solid #DDD"
+  border: "1px solid #DDD",
+  backgroundColor: "lightcyan"
 }; //CDN link important for react-bootstrap to work
 
 const Layout = props => __jsx("div", {
@@ -212,7 +221,7 @@ const Layout = props => __jsx("div", {
 })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
   id: "4184271659",
   __self: undefined
-}, "h2{color:red;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDEyXFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTJCdUIsQUFHbUIsVUFDWiIsImZpbGUiOiJDOlxcVXNlcnNcXEZheXlhYWRoXFxEZXNrdG9wXFxIeXBlcmlvbmRldlxcTGV2ZWwgM1xcVGFzayAxMlxcZmlyc3QtbmV4dC1hcHBcXGNvbXBvbmVudHNcXExheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcclxuaW1wb3J0IE1lbnUgZnJvbSBcIi4uL2NvbXBvbmVudHMvTWVudVwiO1xyXG5pbXBvcnQgRm9vdGVyIGZyb20gXCIuLi9jb21wb25lbnRzL0Zvb3RlclwiO1xyXG5cclxuY29uc3QgbGF5b3V0U3R5bGUgPSB7XHJcbiAgdGV4dEFsaWduOiBcImNlbnRlclwiLFxyXG4gIG1hcmdpbjogMjAsXHJcbiAgcGFkZGluZzogMjAsXHJcbiAgYm9yZGVyOiBcIjFweCBzb2xpZCAjREREXCJcclxufTtcclxuXHJcbi8vQ0ROIGxpbmsgaW1wb3J0YW50IGZvciByZWFjdC1ib290c3RyYXAgdG8gd29ya1xyXG5jb25zdCBMYXlvdXQgPSBwcm9wcyA9PiAoXHJcbiAgPGRpdj5cclxuICAgIDxIZWFkPlxyXG4gICAgICA8bGlua1xyXG4gICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxyXG4gICAgICAgIGhyZWY9XCJodHRwczovL21heGNkbi5ib290c3RyYXBjZG4uY29tL2Jvb3RzdHJhcC80LjMuMS9jc3MvYm9vdHN0cmFwLm1pbi5jc3NcIlxyXG4gICAgICAgIGludGVncml0eT1cInNoYTM4NC1nZ095UjBpWENiTVF2M1hpcG1hMzRNRCtkSC8xZlE3ODQvajZjWS9pSlRRVU9oY1dyN3g5SnZvUnhUMk1adzFUXCJcclxuICAgICAgICBjcm9zc09yaWdpbj1cImFub255bW91c1wiXHJcbiAgICAgIC8+XHJcbiAgICA8L0hlYWQ+XHJcbiAgICA8ZGl2IHN0eWxlPXtsYXlvdXRTdHlsZX0+XHJcbiAgICAgIDxNZW51PjwvTWVudT5cclxuICAgICAge3Byb3BzLmNoaWxkcmVufVxyXG4gICAgICA8Rm9vdGVyPjwvRm9vdGVyPlxyXG4gICAgPC9kaXY+XHJcbiAgICA8c3R5bGUgZ2xvYmFsIGpzeD57YFxyXG4gICAgICBoMiB7XHJcbiAgICAgICAgY29sb3I6IHJlZDtcclxuICAgICAgfVxyXG4gICAgYH08L3N0eWxlPlxyXG4gIDwvZGl2PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0O1xyXG4iXX0= */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 12\\\\first-next-app\\\\components\\\\Layout.js */"));
+}, "h2{color:red;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDE2XFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTJCdUIsQUFHbUIsVUFDWiIsImZpbGUiOiJDOlxcVXNlcnNcXEZheXlhYWRoXFxEZXNrdG9wXFxIeXBlcmlvbmRldlxcTGV2ZWwgM1xcVGFzayAxNlxcZmlyc3QtbmV4dC1hcHBcXGNvbXBvbmVudHNcXExheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcclxuaW1wb3J0IE1lbnUgZnJvbSBcIi4uL2NvbXBvbmVudHMvTWVudVwiO1xyXG5pbXBvcnQgRm9vdGVyIGZyb20gXCIuLi9jb21wb25lbnRzL0Zvb3RlclwiO1xyXG5cclxuY29uc3QgbGF5b3V0U3R5bGUgPSB7XHJcbiAgdGV4dEFsaWduOiBcImNlbnRlclwiLFxyXG4gIHBhZGRpbmc6IDIwLFxyXG4gIGJvcmRlcjogXCIxcHggc29saWQgI0RERFwiLFxyXG4gIGJhY2tncm91bmRDb2xvcjogXCJsaWdodGN5YW5cIlxyXG59O1xyXG5cclxuLy9DRE4gbGluayBpbXBvcnRhbnQgZm9yIHJlYWN0LWJvb3RzdHJhcCB0byB3b3JrXHJcbmNvbnN0IExheW91dCA9IHByb3BzID0+IChcclxuICA8ZGl2PlxyXG4gICAgPEhlYWQ+XHJcbiAgICAgIDxsaW5rXHJcbiAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXHJcbiAgICAgICAgaHJlZj1cImh0dHBzOi8vbWF4Y2RuLmJvb3RzdHJhcGNkbi5jb20vYm9vdHN0cmFwLzQuMy4xL2Nzcy9ib290c3RyYXAubWluLmNzc1wiXHJcbiAgICAgICAgaW50ZWdyaXR5PVwic2hhMzg0LWdnT3lSMGlYQ2JNUXYzWGlwbWEzNE1EK2RILzFmUTc4NC9qNmNZL2lKVFFVT2hjV3I3eDlKdm9SeFQyTVp3MVRcIlxyXG4gICAgICAgIGNyb3NzT3JpZ2luPVwiYW5vbnltb3VzXCJcclxuICAgICAgLz5cclxuICAgIDwvSGVhZD5cclxuICAgIDxkaXYgc3R5bGU9e2xheW91dFN0eWxlfT5cclxuICAgICAgPE1lbnU+PC9NZW51PlxyXG4gICAgICB7cHJvcHMuY2hpbGRyZW59XHJcbiAgICAgIDxGb290ZXI+PC9Gb290ZXI+XHJcbiAgICA8L2Rpdj5cclxuICAgIDxzdHlsZSBnbG9iYWwganN4PntgXHJcbiAgICAgIGgyIHtcclxuICAgICAgICBjb2xvcjogcmVkO1xyXG4gICAgICB9XHJcbiAgICBgfTwvc3R5bGU+XHJcbiAgPC9kaXY+XHJcbik7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQ7XHJcbiJdfQ== */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 16\\\\first-next-app\\\\components\\\\Layout.js */"));
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
@@ -235,7 +244,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 12\\first-next-app\\components\\Menu.js";
+var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 16\\first-next-app\\components\\Menu.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -253,19 +262,25 @@ const Menu = () => __jsx("div", {
     lineNumber: 10
   },
   __self: undefined
+}, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
 }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Navbar"], {
   bg: "primary",
   variant: "dark",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
+    lineNumber: 12
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
   href: "/",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 13
   },
   __self: undefined
 }, __jsx("a", {
@@ -273,14 +288,14 @@ const Menu = () => __jsx("div", {
   className: "jsx-2750671077",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 14
   },
   __self: undefined
 }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
   href: "/about",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 16
   },
   __self: undefined
 }, __jsx("a", {
@@ -288,14 +303,14 @@ const Menu = () => __jsx("div", {
   className: "jsx-2750671077",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 17
   },
   __self: undefined
 }, "About")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
   href: "/projects",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 19
   },
   __self: undefined
 }, __jsx("a", {
@@ -303,14 +318,14 @@ const Menu = () => __jsx("div", {
   className: "jsx-2750671077",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 20
   },
   __self: undefined
 }, "Projects")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
   href: "/contact",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21
+    lineNumber: 22
   },
   __self: undefined
 }, __jsx("a", {
@@ -318,13 +333,23 @@ const Menu = () => __jsx("div", {
   className: "jsx-2750671077",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22
+    lineNumber: 23
   },
   __self: undefined
-}, "Contact"))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+}, "Contact"))), __jsx("p", {
+  style: {
+    color: 'lightcyan'
+  },
+  className: "jsx-2750671077",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26
+  },
+  __self: undefined
+}, "Fayyaadh Naidoo")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
   id: "2750671077",
   __self: undefined
-}, ".links.jsx-2750671077{padding:10px;margin-bottom:10px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDEyXFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTWVudS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF3QmdCLEFBR3NCLGFBQ00sbUJBQ3JCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDEyXFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTWVudS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjtcclxuaW1wb3J0IHsgTmF2YmFyIH0gZnJvbSAncmVhY3QtYm9vdHN0cmFwJztcclxuXHJcbmNvbnN0IGxpbmtTdHlsZSA9IHtcclxuICBtYXJnaW5SaWdodDogMTUsXHJcbiAgY29sb3I6ICd3aGl0ZSdcclxufTtcclxuXHJcbmNvbnN0IE1lbnUgPSAoKSA9PiAoXHJcbiAgPGRpdiBjbGFzc05hbWU9XCJsaW5rc1wiPlxyXG4gICAgPE5hdmJhciBiZz1cInByaW1hcnlcIiB2YXJpYW50PVwiZGFya1wiPlxyXG4gICAgPExpbmsgaHJlZj1cIi9cIj5cclxuICAgICAgPGEgc3R5bGU9e2xpbmtTdHlsZX0+SG9tZTwvYT5cclxuICAgIDwvTGluaz5cclxuICAgIDxMaW5rIGhyZWY9XCIvYWJvdXRcIj5cclxuICAgICAgPGEgc3R5bGU9e2xpbmtTdHlsZX0+QWJvdXQ8L2E+XHJcbiAgICA8L0xpbms+XHJcbiAgICA8TGluayBocmVmPVwiL3Byb2plY3RzXCI+XHJcbiAgICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9PlByb2plY3RzPC9hPlxyXG4gICAgPC9MaW5rPlxyXG4gICAgPExpbmsgaHJlZj1cIi9jb250YWN0XCI+XHJcbiAgICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9PkNvbnRhY3Q8L2E+XHJcbiAgICA8L0xpbms+XHJcbiAgICA8L05hdmJhcj5cclxuICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgLmxpbmtzIHtcclxuICAgICAgICBwYWRkaW5nOiAxMHB4O1xyXG4gICAgICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbiAgICAgIH1cclxuICAgIGB9PC9zdHlsZT5cclxuICA8L2Rpdj5cclxuKTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IE1lbnU7XHJcbiJdfQ== */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 12\\\\first-next-app\\\\components\\\\Menu.js */"));
+}, ".links.jsx-2750671077{padding:10px;margin-bottom:10px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDE2XFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTWVudS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUEyQmdCLEFBR3NCLGFBQ00sbUJBQ3JCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDE2XFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTWVudS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjtcclxuaW1wb3J0IHsgTmF2YmFyLCBDb250YWluZXIsIFJvdywgQ29sIH0gZnJvbSAncmVhY3QtYm9vdHN0cmFwJztcclxuXHJcbmNvbnN0IGxpbmtTdHlsZSA9IHtcclxuICBtYXJnaW5SaWdodDogMTUsXHJcbiAgY29sb3I6ICd3aGl0ZSdcclxufTtcclxuXHJcbmNvbnN0IE1lbnUgPSAoKSA9PiAoXHJcbiAgPGRpdiBjbGFzc05hbWU9XCJsaW5rc1wiPlxyXG4gICAgPENvbnRhaW5lcj5cclxuICAgIDxOYXZiYXIgYmc9XCJwcmltYXJ5XCIgdmFyaWFudD1cImRhcmtcIj5cclxuICAgIDxMaW5rIGhyZWY9XCIvXCI+XHJcbiAgICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9PkhvbWU8L2E+XHJcbiAgICA8L0xpbms+XHJcbiAgICA8TGluayBocmVmPVwiL2Fib3V0XCI+XHJcbiAgICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9PkFib3V0PC9hPlxyXG4gICAgPC9MaW5rPlxyXG4gICAgPExpbmsgaHJlZj1cIi9wcm9qZWN0c1wiPlxyXG4gICAgICA8YSBzdHlsZT17bGlua1N0eWxlfT5Qcm9qZWN0czwvYT5cclxuICAgIDwvTGluaz5cclxuICAgIDxMaW5rIGhyZWY9XCIvY29udGFjdFwiPlxyXG4gICAgICA8YSBzdHlsZT17bGlua1N0eWxlfT5Db250YWN0PC9hPlxyXG4gICAgPC9MaW5rPlxyXG4gICAgPC9OYXZiYXI+XHJcbiAgICA8cCBzdHlsZT17e2NvbG9yOiAnbGlnaHRjeWFuJ319PkZheXlhYWRoIE5haWRvbzwvcD5cclxuICAgIDwvQ29udGFpbmVyPlxyXG4gICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAubGlua3Mge1xyXG4gICAgICAgIHBhZGRpbmc6IDEwcHg7XHJcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMTBweDtcclxuICAgICAgfVxyXG4gICAgYH08L3N0eWxlPlxyXG4gIDwvZGl2PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgTWVudTtcclxuIl19 */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 16\\\\first-next-app\\\\components\\\\Menu.js */"));
 
 /* harmony default export */ __webpack_exports__["default"] = (Menu);
 
@@ -2021,42 +2046,68 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 12\\first-next-app\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 16\\first-next-app\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
 const card = {
-  marginLeft: 300,
-  width: "30rem"
+  backgroundColor: 'lavender'
 };
 
 const Welcome = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
+    lineNumber: 10
   },
   __self: undefined
 }, __jsx("div", {
-  className: "jsx-2825335159",
+  className: "jsx-2611539118",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
   },
   __self: undefined
-}, __jsx("h2", {
-  className: "jsx-2825335159",
+}, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+  className: "justify-content-center",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
   },
   __self: undefined
-}, "Welcome to the developer portfolio for Fayyaadh Naidoo"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Card"], {
-  style: card,
+}, __jsx("h2", {
+  className: "jsx-2611539118",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 14
+  },
+  __self: undefined
+}, "Welcome to the developer portfolio for Fayyaadh Naidoo")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+  className: "justify-content-center",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+  lg: 5,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Card"], {
+  style: card,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18
   },
   __self: undefined
 }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Card"].Img, {
@@ -2064,31 +2115,31 @@ const Welcome = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["def
   src: "/static/images/Fayyaadh.jpg",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 19
   },
   __self: undefined
 }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Card"].Body, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 20
   },
   __self: undefined
 }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Card"].Title, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 21
   },
   __self: undefined
 }, "Bio"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Card"].Text, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 22
   },
   __self: undefined
-}, "I started to learn programming during my studies as a means of picking up an extra hobby and ended up falling in love with it. It felt like something which had been missing in my life and my only regret was not picking it up sooner. I then decided that this is what I wanna do for the rest of my life as it is something that always challenges you and picks your brain with all the problem solving that it involves. So, my next goal in life was to pursue a career in this field. This led me to HyperionDev where I enrolled in a Full Stack Web Development course in which I hope to improve upon my coding knowledge and hopefully transition into a career in Software Development once I'm done."))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-  id: "2825335159",
+}, "I began learning programming during my studies as a means of picking up an extra hobby and ended up falling in love with it. It felt like something which had been missing in my life and my only regret was not picking it up sooner. I then decided that this is what I wanna do for the rest of my life as it is something that always challenges you and picks your brain with all the problem solving that it involves. So, my next goal in life was to pursue a career in this field. This led me to HyperionDev where I enrolled in a Full Stack Web Development course in which I hope to improve upon my coding knowledge and hopefully transition into a career in Software Development once I'm done.")))))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  id: "2611539118",
   __self: undefined
-}, ".card.jsx-2825335159{backgroundcolor:blue;margin:50px;}h2.jsx-2825335159{color:red;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDEyXFxmaXJzdC1uZXh0LWFwcFxccGFnZXNcXGluZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWdDa0IsQUFHZ0MsQUFJWCxVQUNaLFdBSmMsWUFDZCIsImZpbGUiOiJDOlxcVXNlcnNcXEZheXlhYWRoXFxEZXNrdG9wXFxIeXBlcmlvbmRldlxcTGV2ZWwgM1xcVGFzayAxMlxcZmlyc3QtbmV4dC1hcHBcXHBhZ2VzXFxpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcclxuaW1wb3J0IExheW91dCBmcm9tIFwiLi4vY29tcG9uZW50cy9MYXlvdXRcIjtcclxuaW1wb3J0IHsgQ2FyZCB9IGZyb20gXCJyZWFjdC1ib290c3RyYXBcIjtcclxuXHJcbmNvbnN0IGNhcmQgPSB7XHJcbiAgbWFyZ2luTGVmdDogMzAwLFxyXG4gIHdpZHRoOiBcIjMwcmVtXCJcclxufTtcclxuXHJcbmNvbnN0IFdlbGNvbWUgPSAoKSA9PiAoXHJcbiAgPExheW91dD5cclxuICAgIDxkaXY+XHJcbiAgICAgIDxoMj5XZWxjb21lIHRvIHRoZSBkZXZlbG9wZXIgcG9ydGZvbGlvIGZvciBGYXl5YWFkaCBOYWlkb288L2gyPlxyXG4gICAgICA8Q2FyZCBzdHlsZT17Y2FyZH0+XHJcbiAgICAgICAgPENhcmQuSW1nIHZhcmlhbnQ9XCJ0b3BcIiBzcmM9XCIvc3RhdGljL2ltYWdlcy9GYXl5YWFkaC5qcGdcIiAvPlxyXG4gICAgICAgIDxDYXJkLkJvZHk+XHJcbiAgICAgICAgICA8Q2FyZC5UaXRsZT5CaW88L0NhcmQuVGl0bGU+XHJcbiAgICAgICAgICA8Q2FyZC5UZXh0PlxyXG4gICAgICAgICAgICBJIHN0YXJ0ZWQgdG8gbGVhcm4gcHJvZ3JhbW1pbmcgZHVyaW5nIG15IHN0dWRpZXMgYXMgYSBtZWFucyBvZlxyXG4gICAgICAgICAgICBwaWNraW5nIHVwIGFuIGV4dHJhIGhvYmJ5IGFuZCBlbmRlZCB1cCBmYWxsaW5nIGluIGxvdmUgd2l0aCBpdC4gSXRcclxuICAgICAgICAgICAgZmVsdCBsaWtlIHNvbWV0aGluZyB3aGljaCBoYWQgYmVlbiBtaXNzaW5nIGluIG15IGxpZmUgYW5kIG15IG9ubHlcclxuICAgICAgICAgICAgcmVncmV0IHdhcyBub3QgcGlja2luZyBpdCB1cCBzb29uZXIuIEkgdGhlbiBkZWNpZGVkIHRoYXQgdGhpcyBpc1xyXG4gICAgICAgICAgICB3aGF0IEkgd2FubmEgZG8gZm9yIHRoZSByZXN0IG9mIG15IGxpZmUgYXMgaXQgaXMgc29tZXRoaW5nIHRoYXRcclxuICAgICAgICAgICAgYWx3YXlzIGNoYWxsZW5nZXMgeW91IGFuZCBwaWNrcyB5b3VyIGJyYWluIHdpdGggYWxsIHRoZSBwcm9ibGVtXHJcbiAgICAgICAgICAgIHNvbHZpbmcgdGhhdCBpdCBpbnZvbHZlcy4gU28sIG15IG5leHQgZ29hbCBpbiBsaWZlIHdhcyB0byBwdXJzdWUgYVxyXG4gICAgICAgICAgICBjYXJlZXIgaW4gdGhpcyBmaWVsZC4gVGhpcyBsZWQgbWUgdG8gSHlwZXJpb25EZXYgd2hlcmUgSSBlbnJvbGxlZCBpblxyXG4gICAgICAgICAgICBhIEZ1bGwgU3RhY2sgV2ViIERldmVsb3BtZW50IGNvdXJzZSBpbiB3aGljaCBJIGhvcGUgdG8gaW1wcm92ZSB1cG9uXHJcbiAgICAgICAgICAgIG15IGNvZGluZyBrbm93bGVkZ2UgYW5kIGhvcGVmdWxseSB0cmFuc2l0aW9uIGludG8gYSBjYXJlZXIgaW5cclxuICAgICAgICAgICAgU29mdHdhcmUgRGV2ZWxvcG1lbnQgb25jZSBJJ20gZG9uZS5cclxuICAgICAgICAgIDwvQ2FyZC5UZXh0PlxyXG4gICAgICAgIDwvQ2FyZC5Cb2R5PlxyXG4gICAgICA8L0NhcmQ+XHJcbiAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICAuY2FyZCB7XHJcbiAgICAgICAgICBiYWNrZ3JvdW5kY29sb3I6IGJsdWU7XHJcbiAgICAgICAgICBtYXJnaW46IDUwcHg7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIGgyIHtcclxuICAgICAgICAgIGNvbG9yOiByZWQ7XHJcbiAgICAgICAgfVxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICA8L2Rpdj5cclxuICA8L0xheW91dD5cclxuKTtcclxuZXhwb3J0IGRlZmF1bHQgV2VsY29tZTtcclxuIl19 */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 12\\\\first-next-app\\\\pages\\\\index.js */")));
+}, ".card-body.jsx-2611539118{backgroundColor:'blue';}.card.jsx-2611539118{backgroundColor:blue;}h2.jsx-2611539118{color:blue;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDE2XFxmaXJzdC1uZXh0LWFwcFxccGFnZXNcXGluZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXVDa0IsQUFHa0MsQUFJMUIsQUFFYyxXQUNiLFVBSEEsRUFIQSIsImZpbGUiOiJDOlxcVXNlcnNcXEZheXlhYWRoXFxEZXNrdG9wXFxIeXBlcmlvbmRldlxcTGV2ZWwgM1xcVGFzayAxNlxcZmlyc3QtbmV4dC1hcHBcXHBhZ2VzXFxpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcclxuaW1wb3J0IExheW91dCBmcm9tIFwiLi4vY29tcG9uZW50cy9MYXlvdXRcIjtcclxuaW1wb3J0IHsgQ2FyZCwgQ29udGFpbmVyLCBSb3csIENvbCB9IGZyb20gXCJyZWFjdC1ib290c3RyYXBcIjtcclxuXHJcbmNvbnN0IGNhcmQgPSB7XHJcbiBiYWNrZ3JvdW5kQ29sb3I6ICdsYXZlbmRlcidcclxufTtcclxuXHJcbmNvbnN0IFdlbGNvbWUgPSAoKSA9PiAoXHJcbiAgPExheW91dD5cclxuICAgIDxkaXY+XHJcbiAgICAgIDxDb250YWluZXI+XHJcbiAgICAgICAgPFJvdyBjbGFzc05hbWU9XCJqdXN0aWZ5LWNvbnRlbnQtY2VudGVyXCI+XHJcbiAgICAgIDxoMj5XZWxjb21lIHRvIHRoZSBkZXZlbG9wZXIgcG9ydGZvbGlvIGZvciBGYXl5YWFkaCBOYWlkb288L2gyPlxyXG4gICAgICA8L1Jvdz5cclxuICAgICAgPFJvdyBjbGFzc05hbWU9XCJqdXN0aWZ5LWNvbnRlbnQtY2VudGVyXCI+XHJcbiAgICAgICAgPENvbCBsZz17NX0+XHJcbiAgICAgIDxDYXJkIHN0eWxlPXtjYXJkfT5cclxuICAgICAgICA8Q2FyZC5JbWcgdmFyaWFudD1cInRvcFwiIHNyYz1cIi9zdGF0aWMvaW1hZ2VzL0ZheXlhYWRoLmpwZ1wiIC8+XHJcbiAgICAgICAgPENhcmQuQm9keT5cclxuICAgICAgICAgIDxDYXJkLlRpdGxlPkJpbzwvQ2FyZC5UaXRsZT5cclxuICAgICAgICAgIDxDYXJkLlRleHQ+XHJcbiAgICAgICAgICAgIEkgYmVnYW4gbGVhcm5pbmcgcHJvZ3JhbW1pbmcgZHVyaW5nIG15IHN0dWRpZXMgYXMgYSBtZWFucyBvZlxyXG4gICAgICAgICAgICBwaWNraW5nIHVwIGFuIGV4dHJhIGhvYmJ5IGFuZCBlbmRlZCB1cCBmYWxsaW5nIGluIGxvdmUgd2l0aCBpdC4gSXRcclxuICAgICAgICAgICAgZmVsdCBsaWtlIHNvbWV0aGluZyB3aGljaCBoYWQgYmVlbiBtaXNzaW5nIGluIG15IGxpZmUgYW5kIG15IG9ubHlcclxuICAgICAgICAgICAgcmVncmV0IHdhcyBub3QgcGlja2luZyBpdCB1cCBzb29uZXIuIEkgdGhlbiBkZWNpZGVkIHRoYXQgdGhpcyBpc1xyXG4gICAgICAgICAgICB3aGF0IEkgd2FubmEgZG8gZm9yIHRoZSByZXN0IG9mIG15IGxpZmUgYXMgaXQgaXMgc29tZXRoaW5nIHRoYXRcclxuICAgICAgICAgICAgYWx3YXlzIGNoYWxsZW5nZXMgeW91IGFuZCBwaWNrcyB5b3VyIGJyYWluIHdpdGggYWxsIHRoZSBwcm9ibGVtXHJcbiAgICAgICAgICAgIHNvbHZpbmcgdGhhdCBpdCBpbnZvbHZlcy4gU28sIG15IG5leHQgZ29hbCBpbiBsaWZlIHdhcyB0byBwdXJzdWUgYVxyXG4gICAgICAgICAgICBjYXJlZXIgaW4gdGhpcyBmaWVsZC4gVGhpcyBsZWQgbWUgdG8gSHlwZXJpb25EZXYgd2hlcmUgSSBlbnJvbGxlZCBpblxyXG4gICAgICAgICAgICBhIEZ1bGwgU3RhY2sgV2ViIERldmVsb3BtZW50IGNvdXJzZSBpbiB3aGljaCBJIGhvcGUgdG8gaW1wcm92ZSB1cG9uXHJcbiAgICAgICAgICAgIG15IGNvZGluZyBrbm93bGVkZ2UgYW5kIGhvcGVmdWxseSB0cmFuc2l0aW9uIGludG8gYSBjYXJlZXIgaW5cclxuICAgICAgICAgICAgU29mdHdhcmUgRGV2ZWxvcG1lbnQgb25jZSBJJ20gZG9uZS5cclxuICAgICAgICAgIDwvQ2FyZC5UZXh0PlxyXG4gICAgICAgIDwvQ2FyZC5Cb2R5PlxyXG4gICAgICA8L0NhcmQ+XHJcbiAgICAgIDwvQ29sPlxyXG4gICAgICA8L1Jvdz5cclxuICAgICAgPC9Db250YWluZXI+XHJcbiAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICAuY2FyZC1ib2R5IHtcclxuICAgICAgICAgIGJhY2tncm91bmRDb2xvcjogJ2JsdWUnO1xyXG4gICAgICAgIH1cclxuICAgICAgICAuY2FyZCB7XHJcbiAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3I6IGJsdWVcclxuICAgICAgICB9XHJcbiAgICAgICAgaDIge1xyXG4gICAgICAgICAgY29sb3I6IGJsdWU7XHJcbiAgICAgICAgfVxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICA8L2Rpdj5cclxuICA8L0xheW91dD5cclxuKTtcclxuZXhwb3J0IGRlZmF1bHQgV2VsY29tZTtcclxuIl19 */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 16\\\\first-next-app\\\\pages\\\\index.js */")));
 
 /* harmony default export */ __webpack_exports__["default"] = (Welcome);
 
@@ -2101,7 +2152,7 @@ const Welcome = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["def
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Fayyaadh\Desktop\Hyperiondev\Level 3\Task 12\first-next-app\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\Fayyaadh\Desktop\Hyperiondev\Level 3\Task 16\first-next-app\pages\index.js */"./pages/index.js");
 
 
 /***/ }),

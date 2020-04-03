@@ -936,7 +936,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 12\\first-next-app\\.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 16\\first-next-app\\.next");
       return error;
     }
   };

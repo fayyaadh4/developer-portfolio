@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from 'react-bootstrap';
 
 const footerStyle = {
   borderTop: "1px solid",
@@ -10,7 +11,9 @@ const footerStyle = {
 
 const Footer = () => (
   <div style={footerStyle}>
-    <p>This online portfolio was developed using Next.js</p>
+    <Container>
+    <p>This online portfolio was developed by Fayyaadh Naidoo using Next.js</p>
+    </Container>
   </div>
 );
 

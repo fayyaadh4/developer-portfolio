@@ -1,22 +1,26 @@
 import React from "react";
 import Layout from "../components/Layout";
-import { Card } from "react-bootstrap";
+import { Card, Container, Row, Col } from "react-bootstrap";
 
 const card = {
-  marginLeft: 300,
-  width: "30rem"
+ backgroundColor: 'lavender'
 };
 
 const Welcome = () => (
   <Layout>
     <div>
+      <Container>
+        <Row className="justify-content-center">
       <h2>Welcome to the developer portfolio for Fayyaadh Naidoo</h2>
+      </Row>
+      <Row className="justify-content-center">
+        <Col lg={5}>
       <Card style={card}>
         <Card.Img variant="top" src="/static/images/Fayyaadh.jpg" />
         <Card.Body>
           <Card.Title>Bio</Card.Title>
           <Card.Text>
-            I started to learn programming during my studies as a means of
+            I began learning programming during my studies as a means of
             picking up an extra hobby and ended up falling in love with it. It
             felt like something which had been missing in my life and my only
             regret was not picking it up sooner. I then decided that this is
@@ -30,13 +34,18 @@ const Welcome = () => (
           </Card.Text>
         </Card.Body>
       </Card>
+      </Col>
+      </Row>
+      </Container>
       <style jsx>{`
+        .card-body {
+          backgroundColor: 'blue';
+        }
         .card {
-          backgroundcolor: blue;
-          margin: 50px;
+          backgroundColor: blue
         }
         h2 {
-          color: red;
+          color: blue;
         }
       `}</style>
     </div>

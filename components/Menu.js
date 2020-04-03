@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Navbar } from 'react-bootstrap';
+import { Navbar, Container, Row, Col } from 'react-bootstrap';
 
 const linkStyle = {
   marginRight: 15,
@@ -8,6 +8,7 @@ const linkStyle = {
 
 const Menu = () => (
   <div className="links">
+    <Container>
     <Navbar bg="primary" variant="dark">
     <Link href="/">
       <a style={linkStyle}>Home</a>
@@ -22,6 +23,8 @@ const Menu = () => (
       <a style={linkStyle}>Contact</a>
     </Link>
     </Navbar>
+    <p style={{color: 'lightcyan'}}>Fayyaadh Naidoo</p>
+    </Container>
     <style jsx>{`
       .links {
         padding: 10px;

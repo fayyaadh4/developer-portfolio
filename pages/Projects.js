@@ -4,14 +4,16 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const cards = {
   textAlign: "center",
-  margin: "100"
+  height: '200px',
+  margin: '5px',
+  backgroundColor: 'lavender'
 };
 
 const Project = () => (
   <Layout>
     <Container>
       <h2>Projects</h2>
-      <div style={cards}>
+      <div>
         <style jsx>
           {`
             .card {
@@ -19,10 +21,10 @@ const Project = () => (
             }
           `}
         </style>
-        <Row>
-          <Col>
+        <Row className="justify-content-md-center">
+          <Col lg={5}>
             <div>
-              <Card style={{ width: "18rem" }}>
+              <Card style={cards}>
                 <Card.Body>
                   <Card.Title>Itune search app</Card.Title>
                   <Card.Text>
@@ -40,9 +42,9 @@ const Project = () => (
               </Card>
             </div>
           </Col>
-          <Col>
+          <Col lg={5}>
             <div>
-              <Card style={{ width: "18rem" }}>
+              <Card style={cards}>
                 <Card.Body>
                   <Card.Title>Minesweeper</Card.Title>
                   <Card.Text>
@@ -60,10 +62,10 @@ const Project = () => (
             </div>
           </Col>
         </Row>
-        <Row>
-          <Col>
+        <Row className="justify-content-md-center">
+          <Col lg={5}>
             <div>
-              <Card style={{ width: "18rem" }}>
+              <Card style={cards}>
                 <Card.Body>
                   <Card.Title>Hypersports Online Store</Card.Title>
                   <Card.Text>
@@ -81,9 +83,9 @@ const Project = () => (
               </Card>
             </div>
           </Col>
-          <Col>
+          <Col lg={5}>
             <div>
-              <Card style={{ width: "18rem" }}>
+              <Card style={cards}>
                 <Card.Body>
                   <Card.Title>Online CV</Card.Title>
                   <Card.Text>

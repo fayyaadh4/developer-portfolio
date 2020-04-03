@@ -4,9 +4,9 @@ import Footer from "../components/Footer";
 
 const layoutStyle = {
   textAlign: "center",
-  margin: 20,
   padding: 20,
-  border: "1px solid #DDD"
+  border: "1px solid #DDD",
+  backgroundColor: "lightcyan"
 };
 
 //CDN link important for react-bootstrap to work

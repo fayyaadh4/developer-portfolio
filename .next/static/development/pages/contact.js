@@ -11,8 +11,10 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 12\\first-next-app\\components\\Footer.js";
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 16\\first-next-app\\components\\Footer.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 var footerStyle = {
   borderTop: "1px solid",
@@ -27,16 +29,22 @@ var Footer = function Footer() {
     style: footerStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
+    },
+    __self: this
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 15
     },
     __self: this
-  }, "This online portfolio was developed using Next.js"));
+  }, "This online portfolio was developed by Fayyaadh Naidoo using Next.js")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -60,7 +68,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_Menu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Menu */ "./components/Menu.js");
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
-var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 12\\first-next-app\\components\\Layout.js";
+var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 16\\first-next-app\\components\\Layout.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -69,9 +77,9 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 var layoutStyle = {
   textAlign: "center",
-  margin: 20,
   padding: 20,
-  border: "1px solid #DDD"
+  border: "1px solid #DDD",
+  backgroundColor: "lightcyan"
 }; //CDN link important for react-bootstrap to work
 
 var Layout = function Layout(props) {
@@ -122,7 +130,7 @@ var Layout = function Layout(props) {
   })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "4184271659",
     __self: this
-  }, "h2{color:red;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDEyXFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTJCdUIsQUFHbUIsVUFDWiIsImZpbGUiOiJDOlxcVXNlcnNcXEZheXlhYWRoXFxEZXNrdG9wXFxIeXBlcmlvbmRldlxcTGV2ZWwgM1xcVGFzayAxMlxcZmlyc3QtbmV4dC1hcHBcXGNvbXBvbmVudHNcXExheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcclxuaW1wb3J0IE1lbnUgZnJvbSBcIi4uL2NvbXBvbmVudHMvTWVudVwiO1xyXG5pbXBvcnQgRm9vdGVyIGZyb20gXCIuLi9jb21wb25lbnRzL0Zvb3RlclwiO1xyXG5cclxuY29uc3QgbGF5b3V0U3R5bGUgPSB7XHJcbiAgdGV4dEFsaWduOiBcImNlbnRlclwiLFxyXG4gIG1hcmdpbjogMjAsXHJcbiAgcGFkZGluZzogMjAsXHJcbiAgYm9yZGVyOiBcIjFweCBzb2xpZCAjREREXCJcclxufTtcclxuXHJcbi8vQ0ROIGxpbmsgaW1wb3J0YW50IGZvciByZWFjdC1ib290c3RyYXAgdG8gd29ya1xyXG5jb25zdCBMYXlvdXQgPSBwcm9wcyA9PiAoXHJcbiAgPGRpdj5cclxuICAgIDxIZWFkPlxyXG4gICAgICA8bGlua1xyXG4gICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxyXG4gICAgICAgIGhyZWY9XCJodHRwczovL21heGNkbi5ib290c3RyYXBjZG4uY29tL2Jvb3RzdHJhcC80LjMuMS9jc3MvYm9vdHN0cmFwLm1pbi5jc3NcIlxyXG4gICAgICAgIGludGVncml0eT1cInNoYTM4NC1nZ095UjBpWENiTVF2M1hpcG1hMzRNRCtkSC8xZlE3ODQvajZjWS9pSlRRVU9oY1dyN3g5SnZvUnhUMk1adzFUXCJcclxuICAgICAgICBjcm9zc09yaWdpbj1cImFub255bW91c1wiXHJcbiAgICAgIC8+XHJcbiAgICA8L0hlYWQ+XHJcbiAgICA8ZGl2IHN0eWxlPXtsYXlvdXRTdHlsZX0+XHJcbiAgICAgIDxNZW51PjwvTWVudT5cclxuICAgICAge3Byb3BzLmNoaWxkcmVufVxyXG4gICAgICA8Rm9vdGVyPjwvRm9vdGVyPlxyXG4gICAgPC9kaXY+XHJcbiAgICA8c3R5bGUgZ2xvYmFsIGpzeD57YFxyXG4gICAgICBoMiB7XHJcbiAgICAgICAgY29sb3I6IHJlZDtcclxuICAgICAgfVxyXG4gICAgYH08L3N0eWxlPlxyXG4gIDwvZGl2PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0O1xyXG4iXX0= */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 12\\\\first-next-app\\\\components\\\\Layout.js */"));
+  }, "h2{color:red;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDE2XFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTJCdUIsQUFHbUIsVUFDWiIsImZpbGUiOiJDOlxcVXNlcnNcXEZheXlhYWRoXFxEZXNrdG9wXFxIeXBlcmlvbmRldlxcTGV2ZWwgM1xcVGFzayAxNlxcZmlyc3QtbmV4dC1hcHBcXGNvbXBvbmVudHNcXExheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcclxuaW1wb3J0IE1lbnUgZnJvbSBcIi4uL2NvbXBvbmVudHMvTWVudVwiO1xyXG5pbXBvcnQgRm9vdGVyIGZyb20gXCIuLi9jb21wb25lbnRzL0Zvb3RlclwiO1xyXG5cclxuY29uc3QgbGF5b3V0U3R5bGUgPSB7XHJcbiAgdGV4dEFsaWduOiBcImNlbnRlclwiLFxyXG4gIHBhZGRpbmc6IDIwLFxyXG4gIGJvcmRlcjogXCIxcHggc29saWQgI0RERFwiLFxyXG4gIGJhY2tncm91bmRDb2xvcjogXCJsaWdodGN5YW5cIlxyXG59O1xyXG5cclxuLy9DRE4gbGluayBpbXBvcnRhbnQgZm9yIHJlYWN0LWJvb3RzdHJhcCB0byB3b3JrXHJcbmNvbnN0IExheW91dCA9IHByb3BzID0+IChcclxuICA8ZGl2PlxyXG4gICAgPEhlYWQ+XHJcbiAgICAgIDxsaW5rXHJcbiAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXHJcbiAgICAgICAgaHJlZj1cImh0dHBzOi8vbWF4Y2RuLmJvb3RzdHJhcGNkbi5jb20vYm9vdHN0cmFwLzQuMy4xL2Nzcy9ib290c3RyYXAubWluLmNzc1wiXHJcbiAgICAgICAgaW50ZWdyaXR5PVwic2hhMzg0LWdnT3lSMGlYQ2JNUXYzWGlwbWEzNE1EK2RILzFmUTc4NC9qNmNZL2lKVFFVT2hjV3I3eDlKdm9SeFQyTVp3MVRcIlxyXG4gICAgICAgIGNyb3NzT3JpZ2luPVwiYW5vbnltb3VzXCJcclxuICAgICAgLz5cclxuICAgIDwvSGVhZD5cclxuICAgIDxkaXYgc3R5bGU9e2xheW91dFN0eWxlfT5cclxuICAgICAgPE1lbnU+PC9NZW51PlxyXG4gICAgICB7cHJvcHMuY2hpbGRyZW59XHJcbiAgICAgIDxGb290ZXI+PC9Gb290ZXI+XHJcbiAgICA8L2Rpdj5cclxuICAgIDxzdHlsZSBnbG9iYWwganN4PntgXHJcbiAgICAgIGgyIHtcclxuICAgICAgICBjb2xvcjogcmVkO1xyXG4gICAgICB9XHJcbiAgICBgfTwvc3R5bGU+XHJcbiAgPC9kaXY+XHJcbik7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQ7XHJcbiJdfQ== */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 16\\\\first-next-app\\\\components\\\\Layout.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -145,7 +153,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 12\\first-next-app\\components\\Menu.js";
+var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 16\\first-next-app\\components\\Menu.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -164,19 +172,25 @@ var Menu = function Menu() {
       lineNumber: 10
     },
     __self: this
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Navbar"], {
     bg: "primary",
     variant: "dark",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }, __jsx("a", {
@@ -184,14 +198,14 @@ var Menu = function Menu() {
     className: "jsx-2750671077",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }, __jsx("a", {
@@ -199,14 +213,14 @@ var Menu = function Menu() {
     className: "jsx-2750671077",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 17
     },
     __self: this
   }, "About")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/projects",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: this
   }, __jsx("a", {
@@ -214,14 +228,14 @@ var Menu = function Menu() {
     className: "jsx-2750671077",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }, "Projects")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 22
     },
     __self: this
   }, __jsx("a", {
@@ -229,13 +243,23 @@ var Menu = function Menu() {
     className: "jsx-2750671077",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 23
     },
     __self: this
-  }, "Contact"))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }, "Contact"))), __jsx("p", {
+    style: {
+      color: 'lightcyan'
+    },
+    className: "jsx-2750671077",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "Fayyaadh Naidoo")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "2750671077",
     __self: this
-  }, ".links.jsx-2750671077{padding:10px;margin-bottom:10px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDEyXFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTWVudS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF3QmdCLEFBR3NCLGFBQ00sbUJBQ3JCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDEyXFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTWVudS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjtcclxuaW1wb3J0IHsgTmF2YmFyIH0gZnJvbSAncmVhY3QtYm9vdHN0cmFwJztcclxuXHJcbmNvbnN0IGxpbmtTdHlsZSA9IHtcclxuICBtYXJnaW5SaWdodDogMTUsXHJcbiAgY29sb3I6ICd3aGl0ZSdcclxufTtcclxuXHJcbmNvbnN0IE1lbnUgPSAoKSA9PiAoXHJcbiAgPGRpdiBjbGFzc05hbWU9XCJsaW5rc1wiPlxyXG4gICAgPE5hdmJhciBiZz1cInByaW1hcnlcIiB2YXJpYW50PVwiZGFya1wiPlxyXG4gICAgPExpbmsgaHJlZj1cIi9cIj5cclxuICAgICAgPGEgc3R5bGU9e2xpbmtTdHlsZX0+SG9tZTwvYT5cclxuICAgIDwvTGluaz5cclxuICAgIDxMaW5rIGhyZWY9XCIvYWJvdXRcIj5cclxuICAgICAgPGEgc3R5bGU9e2xpbmtTdHlsZX0+QWJvdXQ8L2E+XHJcbiAgICA8L0xpbms+XHJcbiAgICA8TGluayBocmVmPVwiL3Byb2plY3RzXCI+XHJcbiAgICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9PlByb2plY3RzPC9hPlxyXG4gICAgPC9MaW5rPlxyXG4gICAgPExpbmsgaHJlZj1cIi9jb250YWN0XCI+XHJcbiAgICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9PkNvbnRhY3Q8L2E+XHJcbiAgICA8L0xpbms+XHJcbiAgICA8L05hdmJhcj5cclxuICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgLmxpbmtzIHtcclxuICAgICAgICBwYWRkaW5nOiAxMHB4O1xyXG4gICAgICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbiAgICAgIH1cclxuICAgIGB9PC9zdHlsZT5cclxuICA8L2Rpdj5cclxuKTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IE1lbnU7XHJcbiJdfQ== */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 12\\\\first-next-app\\\\components\\\\Menu.js */"));
+  }, ".links.jsx-2750671077{padding:10px;margin-bottom:10px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDE2XFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTWVudS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUEyQmdCLEFBR3NCLGFBQ00sbUJBQ3JCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDE2XFxmaXJzdC1uZXh0LWFwcFxcY29tcG9uZW50c1xcTWVudS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjtcclxuaW1wb3J0IHsgTmF2YmFyLCBDb250YWluZXIsIFJvdywgQ29sIH0gZnJvbSAncmVhY3QtYm9vdHN0cmFwJztcclxuXHJcbmNvbnN0IGxpbmtTdHlsZSA9IHtcclxuICBtYXJnaW5SaWdodDogMTUsXHJcbiAgY29sb3I6ICd3aGl0ZSdcclxufTtcclxuXHJcbmNvbnN0IE1lbnUgPSAoKSA9PiAoXHJcbiAgPGRpdiBjbGFzc05hbWU9XCJsaW5rc1wiPlxyXG4gICAgPENvbnRhaW5lcj5cclxuICAgIDxOYXZiYXIgYmc9XCJwcmltYXJ5XCIgdmFyaWFudD1cImRhcmtcIj5cclxuICAgIDxMaW5rIGhyZWY9XCIvXCI+XHJcbiAgICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9PkhvbWU8L2E+XHJcbiAgICA8L0xpbms+XHJcbiAgICA8TGluayBocmVmPVwiL2Fib3V0XCI+XHJcbiAgICAgIDxhIHN0eWxlPXtsaW5rU3R5bGV9PkFib3V0PC9hPlxyXG4gICAgPC9MaW5rPlxyXG4gICAgPExpbmsgaHJlZj1cIi9wcm9qZWN0c1wiPlxyXG4gICAgICA8YSBzdHlsZT17bGlua1N0eWxlfT5Qcm9qZWN0czwvYT5cclxuICAgIDwvTGluaz5cclxuICAgIDxMaW5rIGhyZWY9XCIvY29udGFjdFwiPlxyXG4gICAgICA8YSBzdHlsZT17bGlua1N0eWxlfT5Db250YWN0PC9hPlxyXG4gICAgPC9MaW5rPlxyXG4gICAgPC9OYXZiYXI+XHJcbiAgICA8cCBzdHlsZT17e2NvbG9yOiAnbGlnaHRjeWFuJ319PkZheXlhYWRoIE5haWRvbzwvcD5cclxuICAgIDwvQ29udGFpbmVyPlxyXG4gICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAubGlua3Mge1xyXG4gICAgICAgIHBhZGRpbmc6IDEwcHg7XHJcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMTBweDtcclxuICAgICAgfVxyXG4gICAgYH08L3N0eWxlPlxyXG4gIDwvZGl2PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgTWVudTtcclxuIl19 */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 16\\\\first-next-app\\\\components\\\\Menu.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Menu);
@@ -2144,9 +2168,9 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5CFayyaadh%5CDesktop%5CHyperiondev%5CLevel%203%5CTask%2012%5Cfirst-next-app%5Cpages%5Ccontact.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5CFayyaadh%5CDesktop%5CHyperiondev%5CLevel%203%5CTask%2016%5Cfirst-next-app%5Cpages%5Ccontact.js!./":
 /*!*********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5CFayyaadh%5CDesktop%5CHyperiondev%5CLevel%203%5CTask%2012%5Cfirst-next-app%5Cpages%5Ccontact.js ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5CFayyaadh%5CDesktop%5CHyperiondev%5CLevel%203%5CTask%2016%5Cfirst-next-app%5Cpages%5Ccontact.js ***!
   \*********************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -20395,80 +20419,111 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 12\\first-next-app\\pages\\contact.js";
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+var _jsxFileName = "C:\\Users\\Fayyaadh\\Desktop\\Hyperiondev\\Level 3\\Task 16\\first-next-app\\pages\\contact.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
 
 
 var Contact = function Contact() {
   return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 5
     },
     __self: this
   }, __jsx("div", {
     className: "jsx-2999950252",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 6
+    },
+    __self: this
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+    className: "justify-content-md-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+    lg: 8,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Jumbotron"], {
+    style: {
+      backgroundColor: 'lavender'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
     },
     __self: this
   }, __jsx("h2", {
     className: "jsx-2999950252",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 11
     },
     __self: this
   }, "Contact details"), __jsx("ul", {
     className: "jsx-2999950252",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 12
     },
     __self: this
   }, __jsx("li", {
     className: "jsx-2999950252",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx("b", {
-    className: "jsx-2999950252",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, "Address:"), " 33, Sheldon Road, Crawford, 7780. Cape Town. South Africa."), __jsx("li", {
-    className: "jsx-2999950252",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, __jsx("b", {
-    className: "jsx-2999950252",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 13
+    },
+    __self: this
+  }, __jsx("b", {
+    className: "jsx-2999950252",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "Address:"), " Cape Town. South Africa."), __jsx("li", {
+    className: "jsx-2999950252",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, __jsx("b", {
+    className: "jsx-2999950252",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
     },
     __self: this
   }, "Telephone number: "), "0764056777"), __jsx("li", {
     className: "jsx-2999950252",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 20
     },
     __self: this
   }, __jsx("b", {
     className: "jsx-2999950252",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 21
     },
     __self: this
   }, "Email address: "), __jsx("a", {
@@ -20477,21 +20532,21 @@ var Contact = function Contact() {
     className: "jsx-2999950252",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 22
     },
     __self: this
   }, "fayyaadh.naidoo@gmail.com")), __jsx("li", {
     className: "jsx-2999950252",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 26
     },
     __self: this
   }, __jsx("b", {
     className: "jsx-2999950252",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 27
     },
     __self: this
   }, "LinkedIn: "), __jsx("a", {
@@ -20500,21 +20555,21 @@ var Contact = function Contact() {
     className: "jsx-2999950252",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 28
     },
     __self: this
   }, "Fayyaadh Naidoo LinkedIn Account")), __jsx("li", {
     className: "jsx-2999950252",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 35
     },
     __self: this
   }, __jsx("b", {
     className: "jsx-2999950252",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 36
     },
     __self: this
   }, "GitHub: "), __jsx("a", {
@@ -20523,27 +20578,37 @@ var Contact = function Contact() {
     className: "jsx-2999950252",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 37
     },
     __self: this
-  }, "Fayyaadh Naidoo GitHub Technical Profile"))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }, "Fayyaadh Naidoo GitHub Technical Profile")))))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Jumbotron"], {
+    style: {
+      backgroundColor: 'lightcyan',
+      height: '250px'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "2999950252",
     __self: this
-  }, "li.jsx-2999950252{list-style-type:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDEyXFxmaXJzdC1uZXh0LWFwcFxccGFnZXNcXGNvbnRhY3QuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBb0NrQixBQUdnQyxxQkFDdkIiLCJmaWxlIjoiQzpcXFVzZXJzXFxGYXl5YWFkaFxcRGVza3RvcFxcSHlwZXJpb25kZXZcXExldmVsIDNcXFRhc2sgMTJcXGZpcnN0LW5leHQtYXBwXFxwYWdlc1xcY29udGFjdC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSBcIi4uL2NvbXBvbmVudHMvTGF5b3V0XCI7XHJcblxyXG5jb25zdCBDb250YWN0ID0gKCkgPT4gKFxyXG4gIDxMYXlvdXQ+XHJcbiAgICA8ZGl2PlxyXG4gICAgICA8aDI+Q29udGFjdCBkZXRhaWxzPC9oMj5cclxuICAgICAgPHVsPlxyXG4gICAgICAgIDxsaT5cclxuICAgICAgICAgIDxiPkFkZHJlc3M6PC9iPiAzMywgU2hlbGRvbiBSb2FkLCBDcmF3Zm9yZCwgNzc4MC4gQ2FwZSBUb3duLiBTb3V0aFxyXG4gICAgICAgICAgQWZyaWNhLlxyXG4gICAgICAgIDwvbGk+XHJcbiAgICAgICAgPGxpPlxyXG4gICAgICAgICAgPGI+VGVsZXBob25lIG51bWJlcjogPC9iPjA3NjQwNTY3NzdcclxuICAgICAgICA8L2xpPlxyXG4gICAgICAgIDxsaT5cclxuICAgICAgICAgIDxiPkVtYWlsIGFkZHJlc3M6IDwvYj5cclxuICAgICAgICAgIDxhIGhyZWY9XCJtYWlsdG86IGZheXlhYWRoLm5haWRvb0BnbWFpbC5jb21cIiB0YXJnZXQ9XCJfYmxhbmtcIj5cclxuICAgICAgICAgICAgZmF5eWFhZGgubmFpZG9vQGdtYWlsLmNvbVxyXG4gICAgICAgICAgPC9hPlxyXG4gICAgICAgIDwvbGk+XHJcbiAgICAgICAgPGxpPlxyXG4gICAgICAgICAgPGI+TGlua2VkSW46IDwvYj5cclxuICAgICAgICAgIDxhXHJcbiAgICAgICAgICAgIGhyZWY9XCJodHRwczovL3d3dy5saW5rZWRpbi5jb20vaW4vZmF5eWFhZGgtbmFpZG9vLTFhYjg5MjEwMC9cIlxyXG4gICAgICAgICAgICB0YXJnZXQ9XCJfYmxhbmtcIlxyXG4gICAgICAgICAgPlxyXG4gICAgICAgICAgICBGYXl5YWFkaCBOYWlkb28gTGlua2VkSW4gQWNjb3VudFxyXG4gICAgICAgICAgPC9hPlxyXG4gICAgICAgIDwvbGk+XHJcbiAgICAgICAgPGxpPlxyXG4gICAgICAgICAgPGI+R2l0SHViOiA8L2I+XHJcbiAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly9naXRodWIuY29tL2ZheXlhYWRoNFwiIHRhcmdldD1cIl9ibGFua1wiPlxyXG4gICAgICAgICAgICBGYXl5YWFkaCBOYWlkb28gR2l0SHViIFRlY2huaWNhbCBQcm9maWxlXHJcbiAgICAgICAgICA8L2E+XHJcbiAgICAgICAgPC9saT5cclxuICAgICAgPC91bD5cclxuICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgIGxpIHtcclxuICAgICAgICAgIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxuICAgICAgICB9XHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgIDwvZGl2PlxyXG4gIDwvTGF5b3V0PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgQ29udGFjdDtcclxuIl19 */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 12\\\\first-next-app\\\\pages\\\\contact.js */")));
+  }, "li.jsx-2999950252{list-style-type:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRmF5eWFhZGhcXERlc2t0b3BcXEh5cGVyaW9uZGV2XFxMZXZlbCAzXFxUYXNrIDE2XFxmaXJzdC1uZXh0LWFwcFxccGFnZXNcXGNvbnRhY3QuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBOENrQixBQUdnQyxxQkFDdkIiLCJmaWxlIjoiQzpcXFVzZXJzXFxGYXl5YWFkaFxcRGVza3RvcFxcSHlwZXJpb25kZXZcXExldmVsIDNcXFRhc2sgMTZcXGZpcnN0LW5leHQtYXBwXFxwYWdlc1xcY29udGFjdC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSBcIi4uL2NvbXBvbmVudHMvTGF5b3V0XCI7XHJcbmltcG9ydCB7IEp1bWJvdHJvbiwgQ29udGFpbmVyLCBSb3csIENvbCB9IGZyb20gJ3JlYWN0LWJvb3RzdHJhcCc7XHJcblxyXG5jb25zdCBDb250YWN0ID0gKCkgPT4gKFxyXG4gIDxMYXlvdXQ+XHJcbiAgICA8ZGl2PlxyXG4gICAgICA8Q29udGFpbmVyPlxyXG4gICAgICAgIDxSb3cgY2xhc3NOYW1lPVwianVzdGlmeS1jb250ZW50LW1kLWNlbnRlclwiPlxyXG4gICAgICAgICAgPENvbCBsZz17OH0+XHJcbiAgICAgIDxKdW1ib3Ryb24gc3R5bGU9e3tiYWNrZ3JvdW5kQ29sb3I6ICdsYXZlbmRlcid9fT5cclxuICAgICAgPGgyPkNvbnRhY3QgZGV0YWlsczwvaDI+XHJcbiAgICAgIDx1bD5cclxuICAgICAgICA8bGk+XHJcbiAgICAgICAgICA8Yj5BZGRyZXNzOjwvYj4gQ2FwZSBUb3duLiBTb3V0aFxyXG4gICAgICAgICAgQWZyaWNhLlxyXG4gICAgICAgIDwvbGk+XHJcbiAgICAgICAgPGxpPlxyXG4gICAgICAgICAgPGI+VGVsZXBob25lIG51bWJlcjogPC9iPjA3NjQwNTY3NzdcclxuICAgICAgICA8L2xpPlxyXG4gICAgICAgIDxsaT5cclxuICAgICAgICAgIDxiPkVtYWlsIGFkZHJlc3M6IDwvYj5cclxuICAgICAgICAgIDxhIGhyZWY9XCJtYWlsdG86IGZheXlhYWRoLm5haWRvb0BnbWFpbC5jb21cIiB0YXJnZXQ9XCJfYmxhbmtcIj5cclxuICAgICAgICAgICAgZmF5eWFhZGgubmFpZG9vQGdtYWlsLmNvbVxyXG4gICAgICAgICAgPC9hPlxyXG4gICAgICAgIDwvbGk+XHJcbiAgICAgICAgPGxpPlxyXG4gICAgICAgICAgPGI+TGlua2VkSW46IDwvYj5cclxuICAgICAgICAgIDxhXHJcbiAgICAgICAgICAgIGhyZWY9XCJodHRwczovL3d3dy5saW5rZWRpbi5jb20vaW4vZmF5eWFhZGgtbmFpZG9vLTFhYjg5MjEwMC9cIlxyXG4gICAgICAgICAgICB0YXJnZXQ9XCJfYmxhbmtcIlxyXG4gICAgICAgICAgPlxyXG4gICAgICAgICAgICBGYXl5YWFkaCBOYWlkb28gTGlua2VkSW4gQWNjb3VudFxyXG4gICAgICAgICAgPC9hPlxyXG4gICAgICAgIDwvbGk+XHJcbiAgICAgICAgPGxpPlxyXG4gICAgICAgICAgPGI+R2l0SHViOiA8L2I+XHJcbiAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly9naXRodWIuY29tL2ZheXlhYWRoNFwiIHRhcmdldD1cIl9ibGFua1wiPlxyXG4gICAgICAgICAgICBGYXl5YWFkaCBOYWlkb28gR2l0SHViIFRlY2huaWNhbCBQcm9maWxlXHJcbiAgICAgICAgICA8L2E+XHJcbiAgICAgICAgPC9saT5cclxuICAgICAgPC91bD5cclxuICAgICAgPC9KdW1ib3Ryb24+XHJcbiAgICAgIDwvQ29sPlxyXG4gICAgICA8L1Jvdz5cclxuICAgICAgPEp1bWJvdHJvbiBzdHlsZT17e2JhY2tncm91bmRDb2xvcjogJ2xpZ2h0Y3lhbicsIGhlaWdodDogJzI1MHB4J319PjwvSnVtYm90cm9uPlxyXG4gICAgICA8L0NvbnRhaW5lcj5cclxuICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgIGxpIHtcclxuICAgICAgICAgIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxuICAgICAgICB9XHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgIDwvZGl2PlxyXG4gIDwvTGF5b3V0PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgQ29udGFjdDtcclxuIl19 */\n/*@ sourceURL=C:\\\\Users\\\\Fayyaadh\\\\Desktop\\\\Hyperiondev\\\\Level 3\\\\Task 16\\\\first-next-app\\\\pages\\\\contact.js */")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Contact);
 
 /***/ }),
 
-/***/ 4:
+/***/ 2:
 /*!*************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5CFayyaadh%5CDesktop%5CHyperiondev%5CLevel%203%5CTask%2012%5Cfirst-next-app%5Cpages%5Ccontact.js ***!
+  !*** multi next-client-pages-loader?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5CFayyaadh%5CDesktop%5CHyperiondev%5CLevel%203%5CTask%2016%5Cfirst-next-app%5Cpages%5Ccontact.js ***!
   \*************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5CFayyaadh%5CDesktop%5CHyperiondev%5CLevel%203%5CTask%2012%5Cfirst-next-app%5Cpages%5Ccontact.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5CFayyaadh%5CDesktop%5CHyperiondev%5CLevel%203%5CTask%2012%5Cfirst-next-app%5Cpages%5Ccontact.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5CFayyaadh%5CDesktop%5CHyperiondev%5CLevel%203%5CTask%2016%5Cfirst-next-app%5Cpages%5Ccontact.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5CFayyaadh%5CDesktop%5CHyperiondev%5CLevel%203%5CTask%2016%5Cfirst-next-app%5Cpages%5Ccontact.js!./");
 
 
 /***/ }),
@@ -20559,5 +20624,5 @@ module.exports = dll_82519ec661270f7f484f;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=contact.js.map

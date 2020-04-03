@@ -66,6 +66,8 @@ const About = () => (
             <tbody>
               <tr>
                 <td>2017-2019</td>
+                <table>
+                  <tbody>
                 <tr>
                   <td>Part-time</td>
                 </tr>
@@ -75,9 +77,13 @@ const About = () => (
                     Chemistry practical’s
                   </td>
                 </tr>
+                </tbody>
+              </table>
               </tr>
               <tr>
                 <td>Dec 2014 - Jan 2016</td>
+                <table>
+                  <tbody>
                 <tr>
                   <td>Marshall(Photographer)</td>
                 </tr>
@@ -95,9 +101,13 @@ const About = () => (
                     customers. Giving them the best service which they deserve.
                   </td>
                 </tr>
+                </tbody>
+                </table>
               </tr>
               <tr>
                 <td>2014-2015</td>
+                <table>
+                  <tbody>
                 <tr>
                   <td>Student assistant</td>
                 </tr>
@@ -107,6 +117,8 @@ const About = () => (
                 <tr>
                   <td>Student Enrolment Management Unit, UWC</td>
                 </tr>
+                </tbody>
+                </table>
               </tr>
             </tbody>
           </Table>
